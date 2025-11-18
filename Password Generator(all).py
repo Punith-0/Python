@@ -1,5 +1,6 @@
 import random
 import string
+import Ansi as an
 def passgen(length:int)->str:
     lower_c = string.ascii_lowercase
     upper_c = string.ascii_uppercase
@@ -14,15 +15,15 @@ def num()->int :
         l = int(input("Enter the length of Password :"))
         return l
     except ValueError:
-        print("Enter a valid integer number :")
+        print(f"{an.BOLD}{an.RED}Enter a valid integer number :{an.RESET}")
         return 0
 
 def main():
     l = num()
     if l> 0 :
-        print(f'Password : \n {passgen(l)}')
+        print(f'{an.GREEN}Password :{an.RESET} {passgen(l)}')
     else :
-        print('Enter a valid number greater than zero')
+        print(f'{an.BOLD}{an.RED}Enter a valid number greater than zero{an.RESET}')
 
 if __name__ == '__main__':
     main()

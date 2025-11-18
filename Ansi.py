@@ -6,5 +6,6 @@ BOLD = "\033[1m"
 HIGHLIGHT = "\033[7m"
 BLACK = "\033[30m"
 
-print(f"{RED}This is a red message.{RESET}")
-print(f"{BOLD}{GREEN}{BLACK}This is bold and green.{RESET}")
+if __name__ == "__main__":  
+    print(f"{RED}This is a red message.{RESET}")
+    print(f"{BOLD}{GREEN}{BLACK}This is bold and green.{RESET}")
