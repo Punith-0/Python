@@ -7,13 +7,12 @@ def passgen(length:int)->str:
     special_c = string.punctuation
     temp = lower_c + upper_c + digit + special_c
     Password = "".join(random.choices(temp , k = length))
-    print(f'Password :  {Password}')
     return Password
 
 def num()->int :
     try :
         l = int(input("Enter the length of Password :"))
-        return l ;
+        return l
     except ValueError:
         print("Enter a valid integer number :")
         return 0
@@ -21,7 +20,7 @@ def num()->int :
 def main():
     l = num()
     if l> 0 :
-        passgen(l)
+        print(f'Password : \n {passgen(l)}')
     else :
         print('Enter a valid number greater than zero')
 
