@@ -19,7 +19,7 @@ It displays basic information such as name, height, Pokédex ID, and types, with
 
 
 important Response codes :
-    200 -> Success 
-    404 -> Not found 
-    500 -> Server error
+    200 -> Success <br>
+    404 -> Not found <br>
+    500 -> Server error <br>
     others refer ,, "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status"
