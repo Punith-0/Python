@@ -13,4 +13,4 @@ def passgen(len :int) ->str :
     return Password
 
 if __name__ == "__main__":
-    print(passgen(12))
+    pass
