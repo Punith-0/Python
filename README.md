@@ -49,21 +49,20 @@ Future Me won’t either.
 ## 🚀 How To Use This Code (Good Luck)
 
 Step 1: Clone the repo  
-```bash
+
 git clone https://github.com/Punith-0/Python.git
 Step 2: Enter the abyss
 
-bash
-Copy code
+Step2 :
 cd Python
 Step 3: Run something
 
-bash
-Copy code
+Step 3:
 python whatever.py
 If it works, amazing — you’ve achieved more than I expected.
 If it doesn’t, that’s the natural order of the universe.
 
+---
 Debugging tip:
 Stare at the screen until the bugs fear you.
 Works 0% of the time but feels 100% powerful.
