@@ -54,11 +54,18 @@ git clone https://github.com/Punith-0/Python.git
 Step 2: Enter the abyss
 
 Step2 :
-cd Python
-Step 3: Run something
 
-Step 3:
+cd Python
+
+Step 3: 
+
+Run something
+
+Step 4:
+
 python whatever.py
+
+
 If it works, amazing — you’ve achieved more than I expected.
 If it doesn’t, that’s the natural order of the universe.
 
