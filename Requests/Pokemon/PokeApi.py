@@ -20,10 +20,4 @@ class Pokemon:
     def date_time(self) -> str :
         date = dt.datetime.strftime(dt.datetime.now(tz = zn("Asia/Kolkata")) , "%a , %d-%b-%Y %H:%M:%S %Z")
         return date
-<<<<<<< HEAD
-    
-    def format_data(self , data : dict[str, Any]) -> dict[str, Any]:
-        # This method can be used to format or extract specific data if needed
-        return data
-=======
->>>>>>> 9e4d3b9619721f60b0245a268d4ccec4f0872163
+
