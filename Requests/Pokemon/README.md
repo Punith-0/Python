@@ -18,7 +18,7 @@ It displays basic information such as name, height, Pokédex ID, and types, with
 ---
 
 
-important Response codes :
+important Response codes ;
     200 -> Success <br>
     404 -> Not found <br>
     500 -> Server error <br>
