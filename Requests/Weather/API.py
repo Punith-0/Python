@@ -2,7 +2,7 @@ import requests
 import Ansi as an 
 
 class Weather:
-    key = '02a0adfbb3cfd673c7ab1b58163c72f3'
+    key = '#your api key here '
     url = f'http://api.openweathermap.org/data/2.5/weather/'
 
     def get_weather(self , city : str) -> dict[str , any] | None :
