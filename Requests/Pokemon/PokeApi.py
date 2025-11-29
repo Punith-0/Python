@@ -20,4 +20,4 @@ class Pokemon:
     def date_time(self) -> str :
         date = dt.datetime.strftime(dt.datetime.now(tz = zn("Asia/Kolkata")) , "%a , %d-%b-%Y %H:%M:%S %Z")
         return date
-
+    
