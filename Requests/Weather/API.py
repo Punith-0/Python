@@ -5,7 +5,7 @@ class Weather:
     key = '02a0adfbb3cfd673c7ab1b58163c72f3'
     url = f'http://api.openweathermap.org/data/2.5/weather/'
 
-    def get_weather(self , city : str) -> dict[str , Any] | None :
+    def get_weather(self , city : str) -> dict[str , any] | None :
         URL = f"{self.url}?q={city}&appid={self.key}&units=metric"
         
         tries = 3
@@ -19,7 +19,7 @@ class Weather:
                 print(f"{an.RED}Attempt {attempt} of {tries} failed: Timeout occurred {te}.{an.RESET}")
             except requests.exceptions.RequestException as re :
                 print(f"{an.RED}Attempt {attempt} of {tries} failed: {re}{an.RESET}")
-            except request.exceptions.HTTPError as he :
+            except requests.exceptions.HTTPError as he :
                 print(f"{an.RED}Attempt {attempt} of {tries} failed: HTTP error occurred - {he}{an.RESET}")
         else :
             print(f"{an.RED}\n\nAll attempts to access the API have failed.{an.RESET}")
