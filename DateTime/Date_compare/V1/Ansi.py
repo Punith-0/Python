@@ -5,6 +5,8 @@ GREEN = "\033[32m"
 BOLD = "\033[1m"
 HIGHLIGHT = "\033[7m"
 BLACK = "\033[30m"
+BLUE      = "\033[34m"
+YELLOW    = "\033[33m"
 
 if __name__ == "__main__":  
     print(f"{RED}This is a red message.{RESET}")
