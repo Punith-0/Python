@@ -5,3 +5,4 @@ venv
 .venv
 *.vscode
 requirements.txt
+.mypy_cache
