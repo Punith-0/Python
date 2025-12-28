@@ -6,3 +6,4 @@ venv
 *.vscode
 requirements.txt
 .mypy_cache
+.gitignore
