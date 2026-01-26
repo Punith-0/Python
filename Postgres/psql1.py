@@ -54,6 +54,7 @@ def execute_query(cur , query : str) :
         print("Error while executing query", e)
 
 
+
 def main() :
     conn =connection()
     cur = cursor(conn)
@@ -76,4 +77,5 @@ def main() :
     close(conn , cur)
 
 
-main()
+if __name__ == "__main__" :
+    main()
