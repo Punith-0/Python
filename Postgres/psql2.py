@@ -71,7 +71,7 @@ def main() :
         return
     cur = cursor(conn)
     if not cur :
-        print("connot create a connection ")
+        print("connot create a cursor ")
         return
     while True :
         query = input("Enter query :").strip()
