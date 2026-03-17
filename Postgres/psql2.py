@@ -1,15 +1,18 @@
 import psycopg2
 import re
 import os 
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def connection() :
     try :
         conn = psycopg2.connect(
-            host = "localhost" ,
-            user = "postgres" ,
-            password = "punit000" ,
-            dbname = "postgres" ,
-            port = "5432" 
+            host = os.getenv("PG_HOST") ,
+            user = os.getenv("PG_USER"),
+            password = os.getenv("PG_PASSWORD") ,
+            dbname = os.getenv("PG_DBNAME") ,
+            port = os.getenv("PG_PORT")
         )
         conn.autocommit = True
         return conn
@@ -20,11 +23,11 @@ def connection() :
 def connection_db(dbname :str) :
     try :
         conn = psycopg2.connect(
-            host = "localhost" ,
-            user = "postgres" ,
-            password = "punit000" ,
+            host = os.getenv("PG_HOST") ,
+            user = os.getenv("PG_USER"),
+            password = os.getenv("PG_PASSWORD") ,
             dbname = "".join(dbname.split()) ,
-            port = "5432" 
+            port = os.getenv("PG_PORT")
         )
         conn.autocommit = True
         return conn
