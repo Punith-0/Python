@@ -4,7 +4,7 @@
 but I chose violence (and learning).”
 
 Hi, I’m Punith 👋
-This repo contains a mini PostgreSQL shell written in pure Python using psycopg2.
+This folder contains a mini PostgreSQL shell written in pure Python using psycopg2.
 
 It started after watching a simple tutorial on connecting Python with PostgreSQL.
 My brain said: “nice”
