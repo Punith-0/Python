@@ -12,7 +12,6 @@ class Weather:
 
     def get_weather(self, city: str) -> dict[str, Any] | None:
         URL = f"{self.url}?q={city}&appid={self.key}&units=metric"
-        print("REQUEST URL:", URL)
 
         tries = 3
 
