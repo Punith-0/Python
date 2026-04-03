@@ -43,4 +43,4 @@ def input_date() -> dt.datetime:
 
 if __name__ == "__main__":
     pass
-    #DO nothinh as its a function class were gonna import it 
+    #DO nothing as its a function class were gonna import it 
